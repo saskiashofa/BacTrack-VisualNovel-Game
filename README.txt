@@ -1,28 +1,84 @@
-Fantasy Ren'py GUI template
+# Bactrack
 
-This work is licensed under a Creative Commons Attribution 4.0 International License.
+Bactrack is an educational visual novel game developed using Ren'Py. The game combines storytelling and interactive quizzes to help players learn about viruses, their structures, transmission methods, impacts, and prevention strategies.
 
-You may:
-	-use this template for personal and commercial projects as long as proper attribution is given to the creator 'Skolaztika'.
-	-edit parts of the template to fit your project.
+## Overview
 
+Players take on the role of **Nyra**, a student who is suddenly transported into a mysterious village experiencing a virus outbreak. Together with **Dr. Orion**, Nyra investigates the outbreak, learns important concepts about viruses, and helps the villagers prevent further spread of the disease.
 
-This template contains additional music and fonts. If you use them please follow their licensing requirements.
+## Features
 
-------------------------------------------------------------------------------------------------------------------
-SOME INSTRUCTIONS
-------------------------------------------------------------------------------------------------------------------
+- Interactive visual novel gameplay
+- Educational materials about viruses
+- Multiple learning stages
+- Quiz-based progression system
+- Good Ending and Bad Ending based on player performance
+- Engaging storyline with educational content
 
-• Use alternative main menu screen
-	Navigate to the gui folder (game/gui). Rename the file 'main_menu' to something else, so if any complications arise you'll still have the file. Rename the file 'main_menu_alt' to 'main_menu'.
+## Learning Topics
 
-•Customize the gallery buttons
-	In the gui/button folder you'll find two blank buttons you can customize. It is very important you save your custom buttons with the same name as the existing buttons (ex.: gallerybutton1_hover, gallerybutton1_idle etc.)
--------------------------------------------------------------------------------------------------------------------
+### Laboratory Stage
+- Definition of viruses
+- Differences between viruses and bacteria
+- Virus structure
+- DNA and RNA
+- Bacteriophage structure
+- Lytic and lysogenic replication cycles
 
-If you have any questions you may contact me on any of these platforms:
-	Email:skolaztika@outlook.hu
+### Plantation Stage
+- Harmful effects of viruses
+- Beneficial uses of viruses
+- Vaccines
+- Gene therapy
+- Bacteriophages in medicine
 
-	Itch.io: https://skolaztika.itch.io/
-	DeviantArt: https://www.deviantart.com/
-	Tumblr: https://skolaztika.tumblr.com/
+### Residential Area Stage
+- Symptoms of viral infections
+- Disease transmission
+- Prevention methods
+- Personal hygiene
+- Vaccination awareness
+
+## Main Characters
+
+### Nyra
+The protagonist who explores the outbreak and learns about viruses.
+
+### Dr. Orion
+A researcher and doctor who guides Nyra throughout the investigation.
+
+### Ayla
+A villager affected by the outbreak who helps illustrate symptoms and prevention methods.
+
+## Gameplay
+
+1. Follow the story and explore each location.
+2. Learn the educational materials presented in each stage.
+3. Complete quizzes to test your understanding.
+4. Achieve the required score to continue the story.
+5. Reach the Good Ending by successfully completing all stages.
+
+## Technologies Used
+
+- Ren'Py Visual Novel Engine
+- Python (Ren'Py scripting)
+
+## Installation
+
+1. Download and install Ren'Py.
+2. Clone this repository:
+
+```bash
+git clone https://github.com/your-username/Bactrack.git
+```
+
+3. Open the project using Ren'Py Launcher.
+4. Run the game.
+
+## Project Purpose
+
+This project was developed as an educational game to provide an engaging and interactive learning experience about viruses and outbreak prevention.
+
+## Authors
+
+Developed by the Bactrack Team.
